@@ -1,8 +1,10 @@
 
-<p class="contact_total">There are <span>x</span> contacts</p>
+<p class='contact_total'>There are <span>x</span> contacts</p>
 
-<ul class='contact'>
+<ul class='contact_list'>
   <% @contacts.each do |contact| %>
-  <li><%= contact[:first_name] %> <%= contact[:last_name] %> <%= contact[:email] %> <%= contact[:note] %></li>
-  <% end %>
+  <li><%= contact[:first_name] %> <%= contact[:last_name] %> (<%= contact[:email] %>)
+    <h6><a href="#">Edit</a> | <a href="#">Delete</a></h6>
+    <% end %>
+  </li>
 </ul>
