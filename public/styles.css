@@ -1,0 +1,53 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+/*styling header*/
+h1 {
+  color: white;
+  background-color: #51616E;
+  padding: 15px 0;
+  margin: 0;
+  text-align: center;
+}
+
+.head_nav {
+  padding: 0;
+  margin: 0;
+}
+
+.head_nav li {
+  text-align: center;
+  padding: 10px 0;
+  margin: 2px auto;
+  background-color: #CBCBCF;
+  list-style: none;
+}
+
+.head_nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/*styling main*/
+.contact_total {
+  
+}
+
+.contact {
+  padding: 0;
+  margin: 0;
+}
+
+
+/*styling footer*/
+
+h5 {
+  padding: 10px 0;
+  color: white;
+  text-align: center;
+  background-color: #262631;
+
+}

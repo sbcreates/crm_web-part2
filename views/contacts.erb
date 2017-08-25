@@ -1,0 +1,8 @@
+
+<p class="contact_total">There are <span>x</span> contacts</p>
+
+<ul class='contact'>
+  <% @contacts.each do |contact| %>
+  <li><%= contact[:first_name] %> <%= contact[:last_name] %> <%= contact[:email] %> <%= contact[:note] %></li>
+  <% end %>
+</ul>
