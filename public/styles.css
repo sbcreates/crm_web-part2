@@ -58,23 +58,40 @@ h1 {
   color: #51616E;
   list-style: none;
   font-size: 18px;
+  text-decoration: none;
 }
 
-.contact_list h6 {
+.edit_contact {
   padding: 5px 0;
   margin: 0;
   font-size: 10px;
 }
 
-.contact_list a {
+.edit_contact a {
   padding: 0;
   color: #262631;
 }
 
-.contact_list a:hover {
+.edit_contact a:hover {
   color: white;
 }
 
+/*show_contact pages*/
+.show_contact {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.show_contact li {
+  padding: .5em 0 .5em 10px;
+  margin: 10px auto;
+  width: 600px;
+  background-color: #D8DDE2;
+  color: #51616E;
+  list-style: none;
+  font-size: 18px;
+  text-decoration: none;
+}
 
 /*styling footer*/
 
